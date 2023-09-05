@@ -1,8 +1,6 @@
 ---
 # tasks file for /home/alolivei/GitHub/myrepos/aaptesting/myrole
 - name: "Send message via Slack"
-  collections:
-     - community.general
   community.general.slack:
     token: "{{ SLACK_TOKEN }}"
     channel: "{{ SLACK_CHANNEL }}"
