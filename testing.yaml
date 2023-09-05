@@ -1,9 +1,9 @@
 ---
 - hosts: localhost
   collections:
-    - community.general
+     - community.general
   tasks:
-    - name: "Slack + AAP Integration"
-      include_role:
-        name: myrole
+     - name: "Slack + AAP Integration"
+       include_role:
+         name: myrole
 ...
