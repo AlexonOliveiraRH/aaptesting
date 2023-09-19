@@ -1,0 +1,12 @@
+---
+- hosts: all
+  user: localuser
+  become: yes
+  collections:
+     - community.general
+  tasks:
+
+     - include_role:
+         name: upgrade-rhel
+       tags:
+         - "upgrade_role"
