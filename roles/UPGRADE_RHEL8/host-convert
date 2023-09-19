@@ -1,0 +1,2 @@
+[servidores-convert]
+hoxvfs01 ansible_host=10.167.0.165 ansible_python_interpreter=/usr/bin/python3
