@@ -6,7 +6,7 @@
      - community.general
   tasks:
 
-     - include_role:
+     - ansible.builtin.include_role:
          name: upgrade-rhel
        tags:
          - "upgrade_role"
