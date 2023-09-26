@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  user: localuser
+  user: ansible
   become: yes
   collections:
      - community.general
